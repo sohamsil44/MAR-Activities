@@ -1,16 +1,15 @@
 /*
-
+#MAR
+#MAKAUT
+#Coding_solution
 Permutation Distance  Problem Code: PERMDIST
 Consider a permutation P=(p1,p2,...,pn) of numbers {1,2,...,n}. Let us construct a graph G(P) with n vertices as follows: if i,j∈{1,...,n} and i<j, 
 then an undirected edge (i,j) is present in G(P) if and only if pi<pj.
-
 Given a permutation P, answer several queries of the form "what is the shortest length of a path between u and v in G(P)?". 
 If there is no path between u and v, report so.
 
 Input:
-
 The first line contains a single integer T
-
 denoting the number of test cases. T
 test case descriptions follow.
 Each test case description starts with a line containing two integers, n
@@ -136,6 +135,7 @@ int main() {
 	}
 	return 0;
 }
+
 /*
 1
 4 1
